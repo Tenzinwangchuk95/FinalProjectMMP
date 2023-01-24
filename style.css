@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: tan;
+}
+
+img {
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+  border: 3px solid green;
+  margin: 5px;
+}
+
+.buttons {
+  align-items: center;
+  display: flow-root;
+  flex-flow: row wrap;
+  text-align: center;
+  border: 3px solid #060a06;
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
